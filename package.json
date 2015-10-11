@@ -1,0 +1,15 @@
+{
+  "name": "vk_api",
+  "version": "1.0.0",
+  "description": "app for use vk api",
+  "main": "app.js",
+  "author": "Nazar Rogozhuk",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.4.2",
+    "colors": "^1.1.2",
+    "neo-async": "^1.5.0",
+    "progress": "^1.1.8",
+    "vkapi": "^1.0.0"
+  }
+}
