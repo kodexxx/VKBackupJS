@@ -1,9 +1,9 @@
-var ProgressBar = require('progress');
-var https = require('https');
-var colors = require('colors');
-var fs = require('fs');
-var async = require('async');
-var VK = require('vkapi');
+var ProgressBar = require('progress'),
+    https = require('https'),
+    colors = require('colors'),
+    fs = require('fs'),
+    async = require('async'),
+    VK = require('vkapi');
 
 var vk = new VK({'mode' : 'oauth'});
 vk.setToken( { token :'__TOKEN__' });
